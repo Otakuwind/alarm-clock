@@ -1,0 +1,1 @@
+const currentTime = document.querySelector("h1");
