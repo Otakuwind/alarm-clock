@@ -1,0 +1,19 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+}
+
+body{
+    color: white;
+    background-color: black;
+}
+.title{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-size: 30px;
+
+}
