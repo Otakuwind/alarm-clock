@@ -30,4 +30,53 @@ body{
   border-radius: 8px;
   box-shadow: 5px 20px 25px rgba(15, 0, 230, 0.18);
   outline: none;
+  color: black;
+}
+
+.result {
+    font-family: "DigitalFont", Arial, sans-serif; /* Specify the desired font family */
+  font-size: 48px; /* Adjust the font size as needed */
+  color: #000000; /* Set the font color */
+  background-color: #ffffff; /* Set the background color */
+  margin-top: 10px;
+}
+
+
+.time-set{
+    font-family: "DigitalFont", Arial, sans-serif; /* Specify the desired font family */
+  font-size: 20px; /* Adjust the font size as needed */
+  color: #000000; /* Set the font color */
+  background-color: #ffffff; /* Set the background color */
+  font-weight: bold;
+margin-top: 30px;
+}
+
+
+button{
+  padding: 11px;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+
+button:hover {
+ background-position: right center;
+ background-size: 200% auto;
+ -webkit-animation: pulse 2s infinite;
+ animation: pulse512 1.5s infinite;
+}
+@keyframes pulse512 {
+ 0% {
+  box-shadow: 0 0 0 0 #0f0f0f66;
+ }
+ 70% {
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+ }
+ 100% {
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+ }
 }
